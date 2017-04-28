@@ -1,0 +1,165 @@
+@media screen and (max-width: 1200px) {
+
+    .singoli_red{
+      margin: 90px 30px;
+    }
+    .singoli_blue{
+      margin: 90px 30px;
+    }
+
+  .right_h1{
+    padding-left: 42px;
+  }
+}
+@media screen and (max-width:992px){
+  .navbar{
+    background-color: rgba(255, 255, 255, 0.0);
+
+
+  }
+  .menu li a{
+    font-size: 50px;
+
+  }
+
+  ul.menu li{
+
+
+    margin: 10px;
+  }
+  .menu li.dx{
+    margin-right: 10px;
+    padding-top: 40px;
+
+  }
+  .logo{
+    width: 70%;
+    padding-top:70%;
+}
+
+  .singoli_red{
+    margin: 30px 100px;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+  }
+  .singoli_blue{
+    margin: 30px 100px;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+  }
+  .right_h1{
+    text-align: left;
+    padding-top: 32px;
+    padding-left: 70px;
+    font-size: 120px;
+  }
+  .right_h2, .corsi_h2, .strumenti{
+
+    text-align: center;
+    padding-top: 32px;
+    font-size: 90px;
+    width: 700px;
+    padding-left: 110px;
+
+  }
+  .left_h2{
+
+    text-align: left;
+    padding-top: 32px;
+    font-size: 110px;
+
+  }
+  .text{
+    font-size: 50px;
+    line-height: 70px;
+    text-align: left;
+
+
+  }
+
+  .carousel p {
+    font-size: 50px;
+    line-height: 70px;
+    text-align:left;
+
+  }
+
+  .singoli{
+      padding-left: 100px;
+      width: 100%;
+      margin: 30px;
+  }
+.singoli-l{
+
+  margin:  70px 30px;
+  padding-right: 100px;
+  width: 100%;
+}
+.singoli-w{
+  padding-left: 0px;
+}
+.singoli-a{
+    margin:  70px 230px;
+}
+.contenuto{
+  width: 100%;
+}
+  .footer{
+    height: 700px;
+    font-size: 30px;
+  }
+  .indirizzo, .recapito, .mail, {
+    padding: 50px 0px 0px 50px;}
+    .social{
+        padding: 0px 80px;
+          width: 100%;
+    }
+    .m-1, .m-2, .anno, .materie{
+      font-size: 40px;
+    }
+    .crediti p {
+      font-size: 40px;
+        padding: 0px 30px 0px 100px;
+    }
+
+}
+
+
+  @media screen and (max-width:768px){
+
+    .logo{
+      width: 70%;
+      padding-top:70%;
+  }
+    .singoli_red{
+      margin: 10px 0px;
+      width: 100%;
+      height: 100%;
+
+    }
+    .singoli_blue{
+      margin: 10px 0px;
+      width: 100%;
+      height: 100%;
+
+    }
+    .table  {
+      font-size: 40px;
+    }
+    .singoli-l{
+
+      margin:  70px 30px;
+      padding-right: 100px;
+      width: 100%;
+    }
+    .singoli-w{
+      padding-left: 0px;
+    }
+    .contenuto{
+      width: 100%;
+    }
+    }

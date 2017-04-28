@@ -11,19 +11,6 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="singoli-w">
-
-	<?php while ( have_posts() ) : the_post(); ?>
-		<h2 class="left_h2 font-effect-anaglyph">
-			<?php the_title(); ?>
-		</h2>
-		<?php the_content(); ?>
-		<?php //get_template_part( 'loop-templates/content', 'page' ); ?>
-	<?php endwhile; // end of the loop. ?>
-	
-</div>
-
-<?php if(FALSE): ?>
 <div class="wrapper" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_html( $container ); ?>" id="content">
@@ -58,7 +45,5 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div><!-- Container end -->
 
 </div><!-- Wrapper end -->
-
-<?php endif; ?>
 
 <?php get_footer(); ?>
