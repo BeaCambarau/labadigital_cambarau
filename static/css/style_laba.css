@@ -1,0 +1,26 @@
+
+
+.contenuto {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 10%;
+
+}
+.singoli-l{
+  position: relative;
+  width: 964px;
+  height: 100%;
+  background-color: #fff;
+  margin:  70px 230px;
+
+
+}
+.text{
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}
+.descrizione{
+
+}

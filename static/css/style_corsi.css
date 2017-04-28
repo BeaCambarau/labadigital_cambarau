@@ -1,0 +1,69 @@
+body{
+    background-image: url("../img/lavoro.jpg");
+    background-repeat: no-repeat;
+}
+.link{
+  font-weight: 400;
+  text-decoration: none;
+  color: #35E4E8;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: line-through;
+  color: red;
+  font-weight: 400;
+}
+.corsi_h2{
+  font-weight: 400;
+  color: #4A4A4A;
+  padding-left: 715px;
+  padding-top: 30px;
+  font-size: 30px;
+}
+.singoli {
+  position: relative;
+  width: 964px;
+  height: 100%;
+  background-color: #fff;
+  margin: 160px 230px;
+
+}
+.table{
+  background-color: #fff;
+
+  display: inline-block;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+.materie{
+  float: left;
+  padding: 10px 0px 0px 150px;
+  letter-spacing: 1.5px;
+  width: 400px;
+}
+.crediti{
+  float: right;
+  padding: 0px 150px 10px 100px;
+  text-align: center;
+}
+.anno{
+  font-size: 18px;
+}
+.m-1{
+  font-weight: 400;
+}
+.m-2{
+
+}
+
+.strumenti{
+  font-weight: 400;
+  color: #4A4A4A;
+  padding-left: 70px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-size: 25px;
+
+}
