@@ -114,14 +114,6 @@ ul.menu li {
   padding-top: 32px;
   font-size: 30px; }
 
-.text {
-  font-size: 14px;
-  color: #4A4A4A;
-  margin: 32px 71px;
-  line-height: 33px;
-  text-align: justify;
-  font-weight: 300; }
-
 /*carosello*/
 .carosello {
   height: 640px; }
@@ -169,26 +161,23 @@ ul.menu li {
 .icon {
   padding: 0px 5px; }
 
-body {
-  background-image: url("../img/web.jpg");
-  background-repeat: no-repeat; }
-
-.contenuto {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 10%; }
-
-.singoli-w {
+#page {
   position: relative;
   width: 964px;
   height: 100%;
   background-color: #fff;
   margin-left: 10%; }
+  #page p {
+    font-size: 14px;
+    color: #4A4A4A;
+    margin: 32px 71px;
+    line-height: 33px;
+    text-align: justify;
+    font-weight: 300; }
 
-.text {
-  margin-top: 10px;
-  margin-bottom: 0px; }
+body {
+  background-image: url("../img/web.jpg");
+  background-repeat: no-repeat; }
 
 @media screen and (max-width: 1200px) {
   .singoli_red {

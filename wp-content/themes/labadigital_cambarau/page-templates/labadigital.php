@@ -11,7 +11,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="singoli-w">
+<div id="page">
 
 	<?php while ( have_posts() ) : the_post(); ?>
 		<h2 class="left_h2 font-effect-anaglyph">
@@ -20,7 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php the_content(); ?>
 		<?php //get_template_part( 'loop-templates/content', 'page' ); ?>
 	<?php endwhile; // end of the loop. ?>
-	
+
 </div>
 
 <?php if(FALSE): ?>
