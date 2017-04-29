@@ -20,6 +20,11 @@ function theme_enqueue_styles() {
   wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
 
   wp_enqueue_style( 'font-lato-styles', 'https://fonts.googleapis.com/css?family=Lato:300,400,400i,700', array(), $the_theme->get( 'Version' ) );
+  wp_enqueue_style( 'font-changa-styles', 'http://fonts.googleapis.com/css?family=Changa+One&effect=anaglyph', array(), $the_theme->get( 'Version' ) );
+
+  wp_enqueue_style( 'slick-styles', get_stylesheet_directory_uri() . '/css/slick/slick.css', array(), $the_theme->get( 'Version' ) );
+  wp_enqueue_style( 'slick-theme-styles', get_stylesheet_directory_uri() . '/css/slick/slick-theme.css', array(), $the_theme->get( 'Version' ) );
+
   wp_enqueue_style( 'labadigital-styles', get_stylesheet_directory_uri() . '/css/style.css', array(), $the_theme->get( 'Version' ) );
 
   wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
