@@ -1,10 +1,23 @@
+$admin-bar-offse-top: 50px;
+
 body {
-  //background-color: red;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 
 .menu-item {
   float: none;
 
+}
+
+body.admin-bar{
+  #page {
+    padding-top: $admin-bar-offse-top;
+  }
+  .navbar {
+    top: $admin-bar-offse-top;
+  }
 }
 
 #page {

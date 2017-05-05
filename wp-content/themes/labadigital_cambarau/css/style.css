@@ -161,8 +161,17 @@ ul.menu li {
 .icon {
   padding: 0px 5px; }
 
+body {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .menu-item {
   float: none; }
+
+body.admin-bar #page {
+  padding-top: 50px; }
+body.admin-bar .navbar {
+  top: 50px; }
 
 #page {
   position: relative;
@@ -178,9 +187,8 @@ ul.menu li {
     text-align: justify;
     font-weight: 300; }
 
-body {
-  background-image: url("../img/web.jpg");
-  background-repeat: no-repeat; }
+body.home {
+  background-image: url("../img/web.jpg"); }
 
 @media screen and (max-width: 1200px) {
   .singoli_red {

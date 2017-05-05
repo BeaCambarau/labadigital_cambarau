@@ -27,5 +27,6 @@ function theme_enqueue_styles() {
 
   wp_enqueue_style( 'labadigital-styles', get_stylesheet_directory_uri() . '/css/style.css', array(), $the_theme->get( 'Version' ) );
 
+  wp_enqueue_script( 'jquery-scripts', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', array(), $the_theme->get( 'Version' ), false );
   wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
 }
